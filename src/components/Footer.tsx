@@ -1,7 +1,5 @@
-
 const Footer = () => {
-  return (
-    <footer className="bg-burgundy-900 text-white py-12">
+  return <footer className="bg-burgundy-900 text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
@@ -43,11 +41,9 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-burgundy-700 mt-8 pt-8 text-center text-burgundy-100">
-          <p>&copy; 2024 BN Education Group. Всі права захищені.</p>
+          <p>© 2025 BN Education Group. Всі права захищені.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
