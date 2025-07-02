@@ -1,3 +1,4 @@
+
 import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
@@ -6,9 +7,9 @@ const Hero = () => {
       {/* Harvard Photo Background */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=4076&q=80"
+          src="/lovable-uploads/20346662-05d5-47ba-b5fd-faacaec1aa6b.png"
           alt="Harvard University"
-          className="w-full h-full object-cover opacity-50"
+          className="w-full h-full object-cover opacity-80"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-burgundy-50/70 via-white/80 to-gold-50/70"></div>
       </div>
