@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 
 const SkillsTest = () => {
@@ -158,10 +157,7 @@ const SkillsTest = () => {
               onClick={() => handleAnswer(score)}
               className="p-2 sm:p-4 border-2 border-burgundy-200 rounded-lg hover:border-burgundy-700 hover:bg-burgundy-50 transition-all duration-200 text-center min-h-[80px] sm:min-h-[auto] flex flex-col justify-center"
             >
-              <div className="font-bold text-burgundy-700 text-xl sm:text-2xl mb-1">{score}</div>
-              <div className="text-xs text-burgundy-600">
-                {score === 1 ? 'найгірше' : score === 5 ? 'найкраще' : ''}
-              </div>
+              <div className="font-bold text-burgundy-700 text-xl sm:text-2xl">{score}</div>
             </button>
           ))}
         </div>
