@@ -9,7 +9,6 @@ const Header = () => {
     { href: '#about', label: 'Про центр' },
     { href: '#process', label: 'Як навчаємо' },
     { href: '#subjects', label: 'Предмети' },
-    { href: '#success', label: 'Історії успіху' },
     { href: '#test', label: 'Тест' },
     { href: '#contact', label: 'Контакти' },
   ];
@@ -41,7 +40,7 @@ const Header = () => {
             ))}
           </nav>
 
-          <button className="hidden md:block btn-primary">
+          <button className="hidden md:block bg-burgundy-700 hover:bg-burgundy-800 text-white px-6 py-2 rounded-lg text-sm font-medium transition-all duration-300 transform hover:scale-105">
             Безкоштовна консультація
           </button>
 
@@ -68,7 +67,7 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <button className="btn-primary mt-4">
+              <button className="bg-burgundy-700 hover:bg-burgundy-800 text-white px-6 py-2 rounded-lg text-sm font-medium transition-all duration-300 mt-4">
                 Безкоштовна консультація
               </button>
             </div>

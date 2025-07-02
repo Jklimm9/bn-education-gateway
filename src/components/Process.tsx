@@ -39,9 +39,9 @@ const Process = () => {
   ];
 
   return (
-    <section id="process" className="py-20 bg-gradient-to-br from-burgundy-50 to-gold-50">
+    <section id="process" className="py-16 bg-gradient-to-br from-burgundy-50 to-gold-50">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold text-burgundy-700 mb-6">
             Як проходить навчання
           </h2>
@@ -54,7 +54,7 @@ const Process = () => {
           {/* Timeline line */}
           <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-1 bg-gold-400 h-full"></div>
 
-          <div className="space-y-12 lg:space-y-24">
+          <div className="space-y-8 lg:space-y-16">
             {steps.map((step, index) => (
               <div
                 key={index}
@@ -64,16 +64,16 @@ const Process = () => {
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
                 <div className={`w-full lg:w-5/12 ${index % 2 === 0 ? 'lg:pr-8' : 'lg:pl-8'}`}>
-                  <div className="premium-card p-8 rounded-2xl">
-                    <div className="flex items-center mb-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-burgundy-700 to-gold-400 rounded-full flex items-center justify-center mr-4">
+                  <div className="premium-card p-6 rounded-2xl">
+                    <div className="flex items-center mb-3">
+                      <div className="w-10 h-10 bg-gradient-to-br from-burgundy-700 to-gold-400 rounded-full flex items-center justify-center mr-3">
                         <span className="text-white font-bold text-lg">{step.number}</span>
                       </div>
-                      <h3 className="font-playfair text-2xl font-semibold text-burgundy-700">
+                      <h3 className="font-playfair text-xl font-semibold text-burgundy-700">
                         {step.title}
                       </h3>
                     </div>
-                    <p className="text-burgundy-600 text-lg leading-relaxed">
+                    <p className="text-burgundy-600 leading-relaxed">
                       {step.description}
                     </p>
                   </div>
