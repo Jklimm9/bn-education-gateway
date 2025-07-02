@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* BN Education Design System with saturated burgundy and gold palette */
+/* BN Education Design System with muted burgundy and gold palette */
 
 @layer base {
   :root {
@@ -16,16 +16,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 5%;
 
-    --primary: 346 62% 40%; /* насыщенный burgundy-700 */
+    --primary: 355 24% 40%; /* burgundy-700 more muted */
     --primary-foreground: 0 0% 98%;
 
     --secondary: 210 40% 96%;
-    --secondary-foreground: 346 62% 40%;
+    --secondary-foreground: 355 24% 40%;
 
     --muted: 210 40% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 43 72% 55%; /* насыщенный gold-400 */
+    --accent: 35 30% 50%; /* gold-400 more muted */
     --accent-foreground: 0 0% 5%;
 
     --destructive: 0 84.2% 60.2%;
@@ -33,36 +33,36 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 346 62% 40%;
+    --ring: 355 24% 40%;
 
     --radius: 0.75rem;
   }
 
   .dark {
-    --background: 346 62% 5%;
+    --background: 355 24% 5%;
     --foreground: 0 0% 98%;
 
-    --card: 346 62% 8%;
+    --card: 355 24% 8%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 346 62% 8%;
+    --popover: 355 24% 8%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 43 72% 55%;
-    --primary-foreground: 346 62% 5%;
+    --primary: 35 30% 50%;
+    --primary-foreground: 355 24% 5%;
 
-    --secondary: 346 40% 15%;
+    --secondary: 355 40% 15%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 346 40% 15%;
+    --muted: 355 40% 15%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 346 62% 40%;
+    --accent: 355 24% 40%;
     --accent-foreground: 0 0% 98%;
 
-    --border: 346 40% 15%;
-    --input: 346 40% 15%;
-    --ring: 43 72% 55%;
+    --border: 355 40% 15%;
+    --input: 355 40% 15%;
+    --ring: 35 30% 50%;
   }
 }
 

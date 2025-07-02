@@ -1,4 +1,3 @@
-
 const Footer = () => {
   return <footer className="bg-burgundy-900 text-white py-12">
       <div className="container mx-auto px-4">
@@ -30,10 +29,10 @@ const Footer = () => {
           <div>
             <h4 className="font-playfair text-xl font-semibold mb-4">Контакти</h4>
             <ul className="space-y-2 text-burgundy-100">
-              <li>📞 <a href="tel:+380XXXXXXXXX" className="hover:text-gold-400 transition-colors">+380 XX XXX XX XX</a></li>
-              <li>📧 <a href="mailto:info@bngroup.org" className="hover:text-gold-400 transition-colors">info@bngroup.org</a></li>
-              <li>📱 <a href="https://instagram.com/bn_educationgroup" target="_blank" rel="noopener noreferrer" className="hover:text-gold-400 transition-colors">@bn_educationgroup</a></li>
-              <li>🌐 <a href="https://bngroup.org" target="_blank" rel="noopener noreferrer" className="hover:text-gold-400 transition-colors">bngroup.org</a></li>
+              <li>📞 +380 XX XXX XX XX</li>
+              <li>📧 info@bngroup.org</li>
+              <li>📱 @bn_educationgroup</li>
+              <li>🌐 bngroup.org</li>
             </ul>
           </div>
         </div>
