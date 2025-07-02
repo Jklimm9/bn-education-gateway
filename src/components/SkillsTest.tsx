@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 
 const SkillsTest = () => {
@@ -150,15 +151,15 @@ const SkillsTest = () => {
           {questions[currentQuestion].description}
         </p>
 
-        <div className="grid grid-cols-5 gap-3">
+        <div className="grid grid-cols-5 gap-2 sm:gap-3">
           {[1, 2, 3, 4, 5].map((score) => (
             <button
               key={score}
               onClick={() => handleAnswer(score)}
-              className="p-4 border-2 border-burgundy-200 rounded-lg hover:border-burgundy-700 hover:bg-burgundy-50 transition-all duration-200 text-center"
+              className="p-2 sm:p-4 border-2 border-burgundy-200 rounded-lg hover:border-burgundy-700 hover:bg-burgundy-50 transition-all duration-200 text-center min-h-[80px] sm:min-h-[auto]"
             >
-              <div className="font-bold text-burgundy-700 text-xl mb-1">{score}</div>
-              <div className="text-xs text-burgundy-600">
+              <div className="font-bold text-burgundy-700 text-lg sm:text-xl mb-1">{score}</div>
+              <div className="text-xs sm:text-xs text-burgundy-600 leading-tight">
                 {score === 1 ? 'Слабо' : score === 2 ? 'Нижче середнього' : score === 3 ? 'Середньо' : score === 4 ? 'Добре' : 'Відмінно'}
               </div>
             </button>
