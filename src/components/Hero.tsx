@@ -1,15 +1,13 @@
-
-
 import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
   return (
     <section className="min-h-screen bg-gradient-to-br from-burgundy-50 via-white to-gold-50 flex items-center justify-center relative overflow-hidden">
-      {/* Harvard Photo Background */}
+      {/* Cambridge University Background */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/lovable-uploads/20346662-05d5-47ba-b5fd-faacaec1aa6b.png"
-          alt="Harvard University"
+          src="/lovable-uploads/632603cb-b0a5-4405-9eb9-94ed6e3b9f7a.png"
+          alt="Cambridge University"
           className="w-full h-full object-cover opacity-100"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-burgundy-50/70 via-white/80 to-gold-50/70"></div>
@@ -64,4 +62,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
