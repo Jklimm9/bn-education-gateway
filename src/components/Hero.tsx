@@ -3,8 +3,18 @@ import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-burgundy-50 via-white to-gold-50 flex items-center justify-center relative">
-      <div className="container mx-auto px-4 py-20">
+    <section className="min-h-screen bg-gradient-to-br from-burgundy-50 via-white to-gold-50 flex items-center justify-center relative overflow-hidden">
+      {/* Harvard Photo Background */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=4076&q=80"
+          alt="Harvard University"
+          className="w-full h-full object-cover opacity-10"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-burgundy-50/90 via-white/95 to-gold-50/90"></div>
+      </div>
+
+      <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="text-center max-w-4xl mx-auto animate-fade-in">
           <h1 className="font-playfair text-5xl md:text-7xl font-bold mb-6">
             <span className="gradient-text">Шлях до навчання мрії</span>
@@ -45,7 +55,7 @@ const Hero = () => {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-10">
         <ArrowDown className="text-burgundy-700 w-6 h-6" />
       </div>
     </section>
