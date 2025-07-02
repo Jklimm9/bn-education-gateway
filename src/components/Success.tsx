@@ -19,7 +19,7 @@ const Success = () => {
       achievement: "TOEFL 118/120",
       description: "Підготувався до TOEFL та MBA програми, отримав стипендію в топ-10 бізнес-школі",
       university: "Stanford MBA",
-      image: "/lovable-uploads/4703ec3f-723b-430a-ad2d-f0d2f1bf15a7.png"
+      image: "/lovable-uploads/e7ca46a6-a25a-4136-9fd8-07983f51749b.png"
     }
   ];
 
