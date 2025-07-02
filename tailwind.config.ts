@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -56,30 +57,30 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// BN Education Brand Colors - приглушенные
+				// BN Education Brand Colors - насыщенные
 				burgundy: {
-					50: '#fdf4f5',
-					100: '#fce9ec',
-					200: '#f8d4da',
-					300: '#f2aeba',
-					400: '#e97d98',
-					500: '#db5276',
-					600: '#c5365b',
-					700: '#a8244a',
-					800: '#8d1f3f',
-					900: '#791c39',
+					50: '#fdf2f3',
+					100: '#fce7ea',
+					200: '#f9d3d9',
+					300: '#f4adb9',
+					400: '#ec7b94',
+					500: '#e04d70',
+					600: '#ce2c51',
+					700: '#b01e42',
+					800: '#94193a',
+					900: '#7f1734',
 				},
 				gold: {
-					50: '#fffcf2',
-					100: '#fef9e2',
-					200: '#fdeeca',
-					300: '#fbdd9d',
-					400: '#f7c566',
-					500: '#e5a739',
-					600: '#d3911f',
-					700: '#b07418',
-					800: '#905e18',
-					900: '#764f19',
+					50: '#fffcf0',
+					100: '#fef7d9',
+					200: '#fdedb3',
+					300: '#fbdd83',
+					400: '#f8c347',
+					500: '#f0b429',
+					600: '#e5981a',
+					700: '#c67c16',
+					800: '#a06218',
+					900: '#835119',
 				},
 			},
 			borderRadius: {
