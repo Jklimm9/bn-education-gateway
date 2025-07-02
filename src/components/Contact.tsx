@@ -44,45 +44,45 @@ const Contact = () => {
               </h3>
               
               <div className="space-y-6">
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gold-400 rounded-full flex items-center justify-center">
+                <a href="tel:+380XXXXXXXXX" className="flex items-center space-x-4 hover:text-gold-400 transition-colors group">
+                  <div className="w-12 h-12 bg-gold-400 rounded-full flex items-center justify-center group-hover:bg-gold-500 transition-colors">
                     <Phone className="w-6 h-6 text-burgundy-700" />
                   </div>
                   <div>
                     <p className="font-medium">Телефон (WhatsApp)</p>
-                    <p className="text-burgundy-100">+380 XX XXX XX XX</p>
+                    <p className="text-burgundy-100 group-hover:text-gold-400 transition-colors">+380 XX XXX XX XX</p>
                   </div>
-                </div>
+                </a>
 
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gold-400 rounded-full flex items-center justify-center">
+                <a href="mailto:info@bngroup.org" className="flex items-center space-x-4 hover:text-gold-400 transition-colors group">
+                  <div className="w-12 h-12 bg-gold-400 rounded-full flex items-center justify-center group-hover:bg-gold-500 transition-colors">
                     <Mail className="w-6 h-6 text-burgundy-700" />
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-burgundy-100">info@bngroup.org</p>
+                    <p className="text-burgundy-100 group-hover:text-gold-400 transition-colors">info@bngroup.org</p>
                   </div>
-                </div>
+                </a>
 
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gold-400 rounded-full flex items-center justify-center">
+                <a href="https://instagram.com/bn_educationgroup" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-4 hover:text-gold-400 transition-colors group">
+                  <div className="w-12 h-12 bg-gold-400 rounded-full flex items-center justify-center group-hover:bg-gold-500 transition-colors">
                     <Instagram className="w-6 h-6 text-burgundy-700" />
                   </div>
                   <div>
                     <p className="font-medium">Instagram</p>
-                    <p className="text-burgundy-100">@bn_educationgroup</p>
+                    <p className="text-burgundy-100 group-hover:text-gold-400 transition-colors">@bn_educationgroup</p>
                   </div>
-                </div>
+                </a>
 
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gold-400 rounded-full flex items-center justify-center">
+                <a href="https://bngroup.org" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-4 hover:text-gold-400 transition-colors group">
+                  <div className="w-12 h-12 bg-gold-400 rounded-full flex items-center justify-center group-hover:bg-gold-500 transition-colors">
                     <Link className="w-6 h-6 text-burgundy-700" />
                   </div>
                   <div>
                     <p className="font-medium">Веб-сайт</p>
-                    <p className="text-burgundy-100">bngroup.org</p>
+                    <p className="text-burgundy-100 group-hover:text-gold-400 transition-colors">bngroup.org</p>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
