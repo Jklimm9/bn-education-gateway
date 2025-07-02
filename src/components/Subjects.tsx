@@ -28,8 +28,19 @@ const Subjects = () => {
   ];
 
   return (
-    <section id="subjects" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+    <section id="subjects" className="py-20 relative overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src="/lovable-uploads/6c44c7b3-a484-4eee-9a27-993ad81960df.png"
+          alt="University Building"
+          className="w-full h-full object-cover"
+          style={{ filter: 'saturate(1.1)' }}
+        />
+        <div className="absolute inset-0 bg-white/85"></div>
+      </div>
+
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold text-burgundy-700 mb-6">
             Що вивчають у Центрі
