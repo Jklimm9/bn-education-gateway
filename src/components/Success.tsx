@@ -1,4 +1,3 @@
-
 const Success = () => {
   const stories = [
     {
@@ -6,21 +5,21 @@ const Success = () => {
       achievement: "IELTS 8.5",
       description: "Покращив результат з 6.0 до 8.5 за 4 місяці індивідуальних занять з носієм мови",
       university: "Cambridge University",
-      image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&h=150&fit=crop&crop=face"
+      image: "/lovable-uploads/b0ebd9f9-78db-47de-bc55-ab27834e81a9.png"
     },
     {
       name: "Мирослава", 
       achievement: "A-Level A*A*A",
       description: "Успішно склала A-Level з викладачем з King's College London та вступила до Оксфорду",
       university: "Oxford University",
-      image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&h=150&fit=crop&crop=face"
+      image: "/lovable-uploads/d585411a-2fec-4cd4-9db2-bcd8390ad3a8.png"
     },
     {
       name: "Максим",
       achievement: "TOEFL 118/120",
       description: "Підготувався до TOEFL та MBA програми, отримав стипендію в топ-10 бізнес-школі",
       university: "Stanford MBA",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+      image: "/lovable-uploads/4703ec3f-723b-430a-ad2d-f0d2f1bf15a7.png"
     }
   ];
 
