@@ -1,4 +1,5 @@
 
+
 import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
@@ -9,7 +10,7 @@ const Hero = () => {
         <img 
           src="/lovable-uploads/20346662-05d5-47ba-b5fd-faacaec1aa6b.png"
           alt="Harvard University"
-          className="w-full h-full object-cover opacity-80"
+          className="w-full h-full object-cover opacity-100"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-burgundy-50/70 via-white/80 to-gold-50/70"></div>
       </div>
@@ -63,3 +64,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
