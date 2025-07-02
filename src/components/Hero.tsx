@@ -1,3 +1,4 @@
+
 import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
@@ -9,6 +10,7 @@ const Hero = () => {
           src="/lovable-uploads/632603cb-b0a5-4405-9eb9-94ed6e3b9f7a.png"
           alt="Cambridge University"
           className="w-full h-full object-cover opacity-100"
+          style={{ filter: 'saturate(1.3)' }}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-burgundy-50/70 via-white/80 to-gold-50/70"></div>
       </div>
