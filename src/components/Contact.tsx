@@ -1,6 +1,7 @@
-
 import { useState } from 'react';
+import axios, { AxiosResponse } from 'axios';
 import { Phone, Mail, Instagram, Link } from 'lucide-react';
+import { tg } from '../lib/tg'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -13,7 +14,9 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    // Handle form submission here
+    tg(formData);
+    alert('Спасибі!');
+    window.location.reload();
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -42,7 +45,7 @@ const Contact = () => {
               <h3 className="font-playfair text-3xl font-semibold mb-8">
                 Наші контакти
               </h3>
-              
+
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-gold-400 rounded-full flex items-center justify-center">
@@ -92,7 +95,7 @@ const Contact = () => {
             <h3 className="font-playfair text-2xl font-semibold mb-6">
               Залишити заявку
             </h3>
-            
+
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <input
@@ -105,7 +108,7 @@ const Contact = () => {
                   required
                 />
               </div>
-              
+
               <div>
                 <input
                   type="tel"
@@ -117,7 +120,7 @@ const Contact = () => {
                   required
                 />
               </div>
-              
+
               <div>
                 <input
                   type="email"
@@ -129,7 +132,7 @@ const Contact = () => {
                   required
                 />
               </div>
-              
+
               <div>
                 <textarea
                   name="message"
@@ -140,7 +143,7 @@ const Contact = () => {
                   className="w-full px-4 py-3 rounded-lg bg-white/20 backdrop-blur-sm border border-white/30 text-white placeholder-burgundy-100 focus:outline-none focus:border-gold-400 resize-none"
                 ></textarea>
               </div>
-              
+
               <button
                 type="submit"
                 className="w-full bg-gold-400 hover:bg-gold-500 text-burgundy-700 font-bold py-4 px-6 rounded-lg transition-colors duration-300"
