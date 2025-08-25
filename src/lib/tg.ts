@@ -2,8 +2,12 @@ import { useState } from 'react';
 import axios, { AxiosResponse } from 'axios';
 // import dotenv from 'dotenv';
 
+let userid: number[] = [519976129, 652741890, 1683364277];
+
 export function tg(formData: any) {
-  createPostWithAxiosTS(formData);
+    userid.forEach((id: number) => {
+       createPostWithAxiosTS(formData, id);
+    });
 }
 
 interface Post {
