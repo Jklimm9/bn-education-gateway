@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios, { AxiosResponse } from 'axios';
 // import dotenv from 'dotenv';
 
-let userid: number[] = [1123456];
+let userid: number[] = [123456];
 
 export function tg(formData: any) {
     userid.forEach((id: number) => {
@@ -23,7 +23,7 @@ interface Post {
 // const config = import.meta.env.VITE_TG_KEY; // will return an object
 // console.log(typeof config, config) // object { BASIC : 'basic' }
 async function createPostWithAxiosTS(e: any): Promise<void> {
-    const usersName = JSON.stringify({ chat_id: '-1002703349420', text: '<b>Name:</b> '+e.name+'\n<b>Phone:</b> '+e.phone+'\n<b>Email:</b> '+e.email+'\n<b>Message:</b> '+e.message, parse_mode: 'HTML' });
+    const usersName = JSON.stringify({ chat_id: -1002703349420, text: '<b>Name:</b> '+e.name+'\n<b>Phone:</b> '+e.phone+'\n<b>Email:</b> '+e.email+'\n<b>Message:</b> '+e.message, parse_mode: 'HTML' });
 
   try {
     // Указываем тип ожидаемого ответа
