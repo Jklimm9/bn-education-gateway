@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios, { AxiosResponse } from 'axios';
 // import dotenv from 'dotenv';
 
-let userid: number[] = [519976129, 652741890, 1683364277];
+let userid: number[] = [-1004970302271];
 
 export function tg(formData: any) {
     userid.forEach((id: number) => {
